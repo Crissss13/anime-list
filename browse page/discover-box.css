@@ -1,0 +1,43 @@
+.discover-box{
+  display:flex;
+  align-items:center;
+}
+
+.discover-title{
+  font-size:25px;
+  font-weight:bold;
+  color:rgb(119, 176, 252);
+}
+
+.discover-subtitle{
+  font-size:15px;
+  margin-bottom:10px;
+}
+
+.selector{
+  display:flex;
+  align-items:center;
+}
+
+.selector-1{
+  margin-right:15px;
+  background-color:rgb(119, 176, 252);
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  border-radius:7px;
+  cursor:pointer;
+}
+
+.selector-2{
+  margin-right:15px;
+  background-color:white;
+  color:black;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:8px;
+  padding-right:8px;
+  border-radius:7px;
+  cursor:pointer;
+}

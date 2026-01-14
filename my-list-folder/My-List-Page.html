@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyAnime My List</title>
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="my-list-box.css">
+  <link rel="stylesheet" href="anime-container.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="logo" src="my-anime-logo.jpeg">
+      <div class="name">MyAnime</div>
+    </div>
+
+    <div class="middle-section">
+      <div class="container">
+        <img class="icon" src="browse-icon.png">
+        <div>Browse</div>
+      </div>
+      <div class="container">
+        <img class="icon" src="watch-later-icon.webp">
+        <div>Watch Later</div>
+      </div>
+      <div class="my-list-container">
+        <img class="icon" src="my-list-icon.png">
+        <div>My List</div>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <input class="search-bar" type="text" placeholder="Search">
+    </div>
+  </header>
+
+  <div class="my-list-box">
+    <div class="my-list-title">My List</div>
+    <div class="my-list-subtitle">3 anime added to your list</div>
+  </div>
+
+  <main>
+    <section class="anime-grid">
+      <div class="anime-box">
+        <div class="anime-container">
+          <div class="cover-row">
+            <img class="cover" src="covers/sakamoto-days-season-two.webp">
+            <div class="rating">&#11088; 8.5</div>
+            <button class="remove-button">x Remove</button>
+            <div class="added">&#10003;</div>
+          </div>
+          <div class="stats">
+            <div class="title">Sakamoto Days</div>
+            <div class="release">&#9658; 12 eps &#183; 2024</div>
+            <div class="genres">
+              <div class="genre-1">Action</div>
+              <div class="genre-2">Comedy</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="anime-container">
+          <div class="cover-row">
+              <img class="cover" src="covers/mashle-muscles-and-magic.jpg">
+              <div class="rating">&#11088; 8</div>
+              <button class="remove-button">x Remove</button>
+              <div class="added">&#10003;</div>
+            </div>
+          <div class="stats">
+            <div class="title">Mashle: Magic and Muscles</div>
+            <div class="release">&#9658; 24 eps &#183; 2023</div>
+            <div class="genres">
+              <div class="genre-1">Comedy</div>
+              <div class="genre-2">Fantasy</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="anime-container">
+          <div class="cover-row">
+              <img class="cover" src="covers/chainsaw-man.jpg">
+              <div class="rating">&#11088; 8.3</div>
+              <button class="remove-button">x Remove</button>
+              <div class="added">&#10003;</div>
+            </div>
+          <div class="stats">
+            <div class="title">Chainsaw Man</div>
+            <div class="release">&#9658; 12 eps &#183; 2022</div>
+            <div class="genres">
+              <div class="genre-1">Action</div>
+              <div class="genre-2">Dark Fantasy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

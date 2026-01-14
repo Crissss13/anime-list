@@ -1,0 +1,62 @@
+.modal-anime-container{
+  background-color:rgb(54, 54, 54);
+  height:300px;
+  width:160px;
+  border-radius:9px;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+}
+
+.modal-cover-row{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.modal-cover{
+  height:230px;
+  width:160px;
+  object-fit:cover;
+  object-position:center;
+}
+
+.modal-rating{
+  position:absolute;
+  top:5px;
+  left:5px;
+  background-color:black;
+  border-radius:12px;
+  font-size:13px;
+  padding: 2px 6px 2px 6px;
+}
+
+.modal-stats{
+  font-size:10px;
+  margin-left:5px;
+}
+
+.modal-title{
+  font-size:11px;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+.modal-release{
+  margin-bottom:5px;
+}
+
+.modal-genres{
+  display:flex;
+  align-items:center;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+.modal-genre-1, .modal-genre-2{
+  background-color:rgb(79, 79, 79);
+  border-radius:10px;
+  margin-right:10px;
+  padding-left:7px;
+  padding-right:7px;
+}

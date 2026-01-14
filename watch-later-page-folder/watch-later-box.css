@@ -1,0 +1,15 @@
+.watch-later-box{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:30px;
+}
+
+.watch-later-title{
+  font-size:25px;
+  font-weight:bold;
+  color:rgb(119, 176, 252);
+}
+
+.watch-later-subtitle{
+  font-size:15px;
+}

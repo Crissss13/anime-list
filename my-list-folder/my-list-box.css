@@ -1,0 +1,15 @@
+.my-list-box{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:30px;
+}
+
+.my-list-title{
+  font-size:25px;
+  font-weight:bold;
+  color:rgb(119, 176, 252);
+}
+
+.my-list-subtitle{
+  font-size:15px;
+}

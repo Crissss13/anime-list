@@ -1,0 +1,75 @@
+body{
+  background-color:rgb(31, 31, 31);
+  color:white;
+  font-family:arial;
+  padding-left:100px;
+  padding-right:100px;
+  margin-top:60px;
+  z-index:100;
+}
+
+.anime-grid{
+  display:grid;
+  row-gap:35px;
+  margin-top:15px;
+}
+
+.anime-box{
+  display:flex;
+  justify-content:space-between;
+}
+
+.overlay{
+  position:fixed;
+  background-color:rgba(0, 0, 0, 0.8);
+  z-index:200;
+  top: 30px;
+  bottom:30px;
+  left:150px;
+  right:150px;
+  margin-top:15px;
+}
+
+.modal{
+  background-color:rgba(0, 0, 0, 0.8);
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.modal-header{
+  display:flex;
+  align-items:stretch;
+  justify-content:space-between;
+}
+
+.modal-header .search-bar{
+  height:20px;
+  width:1000px;
+}
+
+.modal-search-button, .modal-close-button{
+  height:35px;
+  width:35px;
+  background-color:white;
+  cursor:pointer;
+  transition: background-color 0.15;
+}
+
+.modal-search-button:hover{
+  background-color:rgb(200, 200, 200);
+}
+
+.modal-close-button:hover{
+  background-color:rgb(200, 200, 200);
+}
+
+.modal-search-icon{
+  height:15px;
+  width:15px;
+  object-fit:cover;
+  object-position:center;
+  margin-top:3px;
+}

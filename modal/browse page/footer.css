@@ -1,0 +1,27 @@
+.footer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-direction:row;
+  margin-top:20px;
+  height:50px;
+  padding-left:400px;
+  padding-right:400px;
+}
+
+.next-button, .previous-button{
+  border:none;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:7px;
+}
+
+.next-button{
+  background-color:rgb(119, 176, 252);
+  color:white;
+}
+
+.previous-button{
+  background-color:white;
+  color:black;
+}

@@ -1,0 +1,243 @@
+body{
+  background-color:rgb(31, 31, 31);
+  color:white;
+  font-family:arial;
+  padding-left:100px;
+  padding-right:100px;
+  margin-top:60px;
+}
+
+.contents{
+  display:flex;
+  justify-content:start;
+  align-items:start;
+}
+
+.contents .left-section{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.contents .right-section{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  margin-left:30px;
+}
+
+.cover{
+  height:250px;
+  width:180px;
+  object-fit:cover;
+  object-position:center;
+}
+
+.add-button-1{
+  background-color:rgb(119, 176, 252);
+  color:white;
+  font-weight:bold;
+  border:none;
+  border-radius:10px;
+  height:30px;
+  width:180px;
+  margin-top:10px;
+  margin-bottom:10px;
+  cursor:pointer;
+}
+
+.add-button-2{
+  background-color:white;
+  color:black;
+  font-weight:bold;
+  border:none;
+  border-radius:10px;
+  height:30px;
+  width:180px;
+  margin-bottom:10px;
+  cursor:pointer;
+}
+
+.stats-1{
+  display:flex;
+  align-items:stretch;
+  justify-content:space-between;
+  flex-direction:column;
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  font-size:13px;
+  font-weight:bold;
+  width:160px;
+  height:120px;
+  padding:10px 10px 10px 10px;
+}
+
+.stats-1 .title{
+  color:grey;
+}
+
+.stats-score, .stats-rank, .stats-popularity, .stats-members{
+  display:flex;
+  justify-content:space-between;
+}
+
+.score{
+  color:rgb(255, 217, 0);
+}
+
+.anime-title{
+  font-size:30px;
+  font-weight:bold;
+}
+
+.stats-2{
+  display:flex;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size:12px;
+  flex-direction:column;
+}
+
+.stats-2-details, .stats-2-genres{
+  display:flex;
+  align-items:center;
+  flex-direction:row;
+  margin-bottom:10px;
+}
+
+.eps, .duration, .release-date, .rated{
+  background-color:rgb(79, 79, 79);
+  border-radius:10px;
+  margin-right:10px;
+  padding-left:7px;
+  padding-right:7px;
+}
+
+.genre, .opinion{
+  background-color:rgb(119, 176, 252);
+  color:rgb(0, 0, 57);
+  border-radius:10px;
+  margin-right:10px;
+  padding-left:7px;
+  padding-right:7px;
+}
+
+.stats-3{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:15px;
+}
+
+.synopsis{
+  margin-bottom:15px;
+}
+
+.synopsis-head, .studio-head, .trailer-head{
+  font-weight:bold;
+  margin-bottom:5px;
+}
+
+.synopsis-body, .studio-body, .text-review{
+  color:grey;
+  font-size:13px;
+}
+
+.trailer-container{
+  display:flex;
+  flex-direction:column;
+}
+
+.trailer-body{
+  position:relative;
+}
+
+.play-button{
+  position:absolute;
+  top:210px;
+  right:455px;
+  height:50px;
+  width:70px;
+  border-radius:10px;
+  border:none;
+  cursor:pointer;
+  transition: background-color 0.15;
+}
+
+.play-button:hover{
+  background-color:rgb(200, 200, 200);
+}
+
+.thumbnail{
+  height:490px;
+  width:990px;
+  object-fit:cover;
+  object-position:center;
+}
+
+.reviews{
+  display:flex;
+  flex-direction:column;
+  margin-top:15px;
+}
+
+.review{
+  display:flex;
+  flex-direction:column;
+  border-style:solid;
+  border-color:grey;
+  border-radius:10px;
+  padding: 7px 7px 7px 7px;
+  margin-bottom:10px;
+  position:relative;
+}
+
+.review-details, .opinions{
+  display:flex;
+  margin-bottom:10px;
+  align-items:center;
+}
+
+.profile-picture{
+  height:35px;
+  width:35px;
+  object-fit:cover;
+  object-position:center;
+  border-radius:20px;
+  margin-right:10px;
+}
+
+.name-date{
+  font-size:12px;
+  color:white;
+}
+
+.date-posted{
+  color:grey;
+}
+
+.opinion{
+  font-size:12px;
+}
+
+.footer{
+  display:flex;
+  column-gap:10px;
+  align-items:start;
+  margin-top:5px;
+  font-size:12px;
+  border-top-style:solid;
+  border-top-color:grey;
+  border-top-width:0.5px;
+  padding-top:3px;
+}
+
+.rating{
+  position:absolute;
+  top:5px;
+  right:5px;
+  background-color:black;
+  border-radius:12px;
+  font-size:13px;
+  padding: 2px 6px 2px 6px;
+}

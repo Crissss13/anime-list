@@ -1,0 +1,19 @@
+body{
+  background-color:rgb(31, 31, 31);
+  color:white;
+  font-family:arial;
+  padding-left:100px;
+  padding-right:100px;
+  margin-top:60px;
+}
+
+.anime-grid{
+  display:grid;
+  row-gap:40px;
+  margin-top:20px;
+}
+
+.anime-box{
+  display:flex;
+  justify-content:space-between;
+}

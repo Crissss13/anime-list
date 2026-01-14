@@ -1,0 +1,91 @@
+.anime-container{
+  background-color:rgb(54, 54, 54);
+  height:340px;
+  width:180px;
+  border-radius:9px;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+}
+
+.cover-row{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.cover{
+  height:250px;
+  width:180px;
+  object-fit:cover;
+  object-position:center;
+}
+
+.rating{
+  position:absolute;
+  top:5px;
+  left:5px;
+  background-color:black;
+  border-radius:12px;
+  font-size:13px;
+  padding: 2px 6px 2px 6px;
+}
+
+.added{
+  position:absolute;
+  top:5px;
+  right:5px;
+  background-color:rgb(119, 176, 252);
+  padding: 2px 5px 2px 5px;
+  font-size:10px;
+  font-weight:bold;
+  border-radius:10px;
+}
+
+.add-button{
+  position:absolute;
+  top:210px;
+  border:none;
+  background-color:rgb(119, 176, 252);
+  color:white;
+  font-weight:bold;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius:7px;
+  opacity:0;
+  transition: opacity 0.15s;
+}
+
+.anime-container:hover .add-button{
+  opacity:1;
+}
+
+.stats{
+  font-size:12px;
+  margin-left:5px;
+}
+
+.title{
+  font-size:13px;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+
+.release{
+  margin-bottom:5px;
+}
+
+.genres{
+  display:flex;
+  align-items:center;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+.genre-1, .genre-2{
+  background-color:rgb(79, 79, 79);
+  border-radius:10px;
+  margin-right:10px;
+  padding-left:7px;
+  padding-right:7px;
+}
